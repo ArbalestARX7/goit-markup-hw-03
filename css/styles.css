@@ -80,8 +80,8 @@ footer .logo {
 }
 
 .main-nav {
-  display: flex;
   justify-content: space-between;
+  display: flex;
   align-items: center;
 }
 
@@ -199,6 +199,7 @@ footer .logo {
 
 .feauters-list {
   display: flex;
+  justify-content: space-between;
 }
 
 .feauters-title {
@@ -211,6 +212,7 @@ footer .logo {
 }
 
 .feauters-text {
+  max-width: 270px;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -219,7 +221,7 @@ footer .logo {
 
 .doing-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .doing .section-title,
@@ -234,7 +236,7 @@ footer .logo {
 /* Наша Команда */
 
 .team-list {
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 0;
   display: flex;
 }
@@ -335,7 +337,7 @@ footer .logo {
 
 .portfolio-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
